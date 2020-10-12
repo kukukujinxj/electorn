@@ -1,0 +1,22 @@
+{
+  "name": "demo",
+  "productName": "demo",
+  "description": "My Electron application description",
+  "keywords": [],
+  "main": "./main.js",
+  "version": "1.0.0",
+  "author": "zw_jxj",
+  "scripts": {
+    "start": "electron .",
+    "packager": "electron-packager ./ electron --overwrite --app--version=0.0.1"
+  },
+  "dependencies": {
+    "electron-packager": "^15.1.0",
+    "mysql": "*",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.3.5"
+  },
+  "devDependencies": {
+    "electron": "10.0.0-beta.21"
+  }
+}

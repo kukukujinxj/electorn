@@ -1,0 +1,4 @@
+node_modules
+out
+electron-win32-x64
+.idea
